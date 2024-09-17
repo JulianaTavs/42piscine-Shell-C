@@ -1,0 +1,4 @@
+#Ignorar os arquivos de log:
+*.log
+#Ignorar arquivos de configuração local:
+config.local
