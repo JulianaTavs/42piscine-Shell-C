@@ -24,7 +24,6 @@ void	ft_is_negative(int n)
 	letra = 'P';
 	}
 	write(1, &letra, 1);
-	return ;
 }
 /*
 int	main(void)
