@@ -9,28 +9,27 @@
 /*   Updated: 2024/08/21 15:51:19 by julitava         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdio.h>
 #include <unistd.h>
 
 void	ft_is_negative(int n)
 {
-	char	l;
+	char	letra;
 
 	if (n < 0)
 	{
-	l = 'N';
+	letra = 'N';
 	}
 	else
 	{
-	l = 'P';
+	letra = 'P';
 	}
-	write(1, &l, 1);
-	return ;
+	write(1, &letra, 1);
 }
 /*
 int	main(void)
 {
 	ft_is_negative(0);
+ 	write(1, "\n", 1);
 	return (0);
 }
 */

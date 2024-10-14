@@ -10,17 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include <unistd.h>
 
 void	ft_putchar(char c)
 {
 	write (1, &c, 1);
-	return ;
+	write (1, "\n", 1);
 }
 
 int	main(void)
 {
-	ft_putchar('c');
+	ft_putchar('J');
 	return (0);
 }
