@@ -16,10 +16,7 @@ void	ft_sort_int_tab(int*tab, int size)
 {
 	int	i;
 	int	j;
-	int	aux;
-	int	troca;
 
-	troca = 1;
 	i = 0;
 	while (i < size - 1)
 	{
@@ -28,7 +25,8 @@ void	ft_sort_int_tab(int*tab, int size)
 		{
 			if (tab[j] > tab[j + 1])
 			{
-			troca = 1;
+			int	aux;
+				
 			aux = tab[j];
 			tab[j] = tab[j + 1];
 			tab[j + 1] = aux;
